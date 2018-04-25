@@ -1,0 +1,83 @@
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(58, 200, 255, 1);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  color: rgba(255, 255, 255, .8);
+}
+.sidenav a:hover {
+  color: rgba(0, 0, 0, .4);
+}
+.vaszon {
+  margin-left: 160px;
+  font-size: 28px;
+  padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+#focim {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tortenet {
+  text-align: justify;
+  font-size: 1rem;
+  padding: 1rem;
+  line-height: 1.5rem;
+}
+
+.lablec {
+  color: black;
+  text-align: center;
+  margin-left: 160px;
+}
+.lablec a {
+  text-decoration: none;
+  color: brown;
+}
+.lablec a:hover {
+  color: burlywood;
+}
+#fooldal h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+#fooldal a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: chocolate;
+}
+#fooldal p {
+  text-align: center;
+}
+.pen {
+  text-align: right;
+  margin-top: 50px;
+  padding: 0 10%;
+}
